@@ -1,0 +1,189 @@
+/* color */
+.color-primary {
+  --quax-button-color-50: var(--quax-color-primary-50);
+  --quax-button-color-100: var(--quax-color-primary-100);
+  --quax-button-color-500: var(--quax-color-primary-500);
+  --quax-button-color-700: var(--quax-color-primary-700);
+  --quax-button-color-900: var(--quax-color-primary-900);
+}
+
+.color-blue {
+  --quax-button-color-50: var(--quax-color-blue-50);
+  --quax-button-color-100: var(--quax-color-blue-100);
+  --quax-button-color-500: var(--quax-color-blue-500);
+  --quax-button-color-700: var(--quax-color-blue-700);
+  --quax-button-color-900: var(--quax-color-blue-900);
+}
+
+.color-red {
+  --quax-button-color-50: var(--quax-color-red-50);
+  --quax-button-color-100: var(--quax-color-red-100);
+  --quax-button-color-500: var(--quax-color-red-500);
+  --quax-button-color-700: var(--quax-color-red-700);
+  --quax-button-color-900: var(--quax-color-red-900);
+}
+
+.color-green {
+  --quax-button-color-50: var(--quax-color-green-50);
+  --quax-button-color-100: var(--quax-color-green-100);
+  --quax-button-color-500: var(--quax-color-green-500);
+  --quax-button-color-700: var(--quax-color-green-700);
+  --quax-button-color-900: var(--quax-color-green-900);
+}
+
+.color-yellow {
+  --quax-button-color-50: var(--quax-color-yellow-50);
+  --quax-button-color-100: var(--quax-color-yellow-100);
+  --quax-button-color-500: var(--quax-color-yellow-500);
+  --quax-button-color-700: var(--quax-color-yellow-700);
+  --quax-button-color-900: var(--quax-color-yellow-900);
+}
+
+.color-purple {
+  --quax-button-color-50: var(--quax-color-purple-50);
+  --quax-button-color-100: var(--quax-color-purple-100);
+  --quax-button-color-500: var(--quax-color-purple-500);
+  --quax-button-color-700: var(--quax-color-purple-700);
+  --quax-button-color-900: var(--quax-color-purple-900);
+}
+
+.color-gray {
+  --quax-button-color-50: var(--quax-color-gray-50);
+  --quax-button-color-100: var(--quax-color-gray-100);
+  --quax-button-color-500: var(--quax-color-gray-500);
+  --quax-button-color-700: var(--quax-color-gray-700);
+  --quax-button-color-900: var(--quax-color-gray-900);
+}
+
+.color-teal {
+  --quax-button-color-50: var(--quax-color-teal-50);
+  --quax-button-color-100: var(--quax-color-teal-100);
+  --quax-button-color-500: var(--quax-color-teal-500);
+  --quax-button-color-700: var(--quax-color-teal-700);
+  --quax-button-color-900: var(--quax-color-teal-900);
+}
+
+.color-orange {
+  --quax-button-color-50: var(--quax-color-orange-50);
+  --quax-button-color-100: var(--quax-color-orange-100);
+  --quax-button-color-500: var(--quax-color-orange-500);
+  --quax-button-color-700: var(--quax-color-orange-700);
+  --quax-button-color-900: var(--quax-color-orange-900);
+}
+
+.color-pink {
+  --quax-button-color-50: var(--quax-color-pink-50);
+  --quax-button-color-100: var(--quax-color-pink-100);
+  --quax-button-color-500: var(--quax-color-pink-500);
+  --quax-button-color-700: var(--quax-color-pink-700);
+  --quax-button-color-900: var(--quax-color-pink-900);
+}
+
+.color-cyan {
+  --quax-button-color-50: var(--quax-color-cyan-50);
+  --quax-button-color-100: var(--quax-color-cyan-100);
+  --quax-button-color-500: var(--quax-color-cyan-500);
+  --quax-button-color-700: var(--quax-color-cyan-700);
+  --quax-button-color-900: var(--quax-color-cyan-900);
+}
+
+.color-indigo {
+  --quax-button-color-50: var(--quax-color-indigo-50);
+  --quax-button-color-100: var(--quax-color-indigo-100);
+  --quax-button-color-500: var(--quax-color-indigo-500);
+  --quax-button-color-700: var(--quax-color-indigo-700);
+  --quax-button-color-900: var(--quax-color-indigo-900);
+}
+
+.color-lime {
+  --quax-button-color-50: var(--quax-color-lime-50);
+  --quax-button-color-100: var(--quax-color-lime-100);
+  --quax-button-color-500: var(--quax-color-lime-500);
+  --quax-button-color-700: var(--quax-color-lime-700);
+  --quax-button-color-900: var(--quax-color-lime-900);
+}
+
+/* size */
+.size-xs {
+  font-size: var(--quax-font-size-xs);
+  padding: var(--quax-padding-xs);
+}
+.size-sm {
+  font-size: var(--quax-font-size-sm);
+  padding: var(--quax-padding-sm);
+}
+.size-md {
+  font-size: var(--quax-font-size-md);
+  padding: var(--quax-padding-md);
+}
+.size-lg {
+  font-size: var(--quax-font-size-lg);
+  padding: var(--quax-padding-lg);
+}
+.size-xl {
+  font-size: var(--quax-font-size-xl);
+  padding: var(--quax-padding-xl);
+}
+
+/* variant */
+.variant-filled {
+  border: none;
+  background-color: var(--quax-button-color-500);
+  color: white;
+  &:hover {
+    background-color: var(--quax-button-color-700);
+  }
+}
+.variant-outlined {
+  border: 1px solid var(--quax-button-color-500);
+  background-color: transparent;
+  color: var(--quax-button-color-500);
+  &:hover {
+    background-color: var(--quax-button-color-50);
+  }
+}
+.variant-ghost {
+  border: none;
+  background-color: transparent;
+  color: var(--quax-button-color-500);
+  &:hover {
+    background-color: var(--quax-button-color-50);
+  }
+}
+.variant-light {
+  border: none;
+  background-color: var(--quax-button-color-50);
+  color: var(--quax-button-color-500);
+  &:hover {
+    background-color: var(--quax-button-color-100);
+  }
+}
+
+/* radius */
+.radius-primary {
+  border-radius: var(--quax-radius-primary);
+}
+.radius-xs {
+  border-radius: var(--quax-radius-xs);
+}
+.radius-sm {
+  border-radius: var(--quax-radius-sm);
+}
+.radius-md {
+  border-radius: var(--quax-radius-md);
+}
+.radius-lg {
+  border-radius: var(--quax-radius-lg);
+}
+.radius-xl {
+  border-radius: var(--quax-radius-xl);
+}
+
+button {
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.1s;
+  &:active {
+    transform: translateY(3px);
+  }
+}

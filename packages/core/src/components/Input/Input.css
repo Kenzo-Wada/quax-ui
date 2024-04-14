@@ -1,0 +1,56 @@
+/* radius */
+.radius-primary {
+  border-radius: var(--quax-radius-primary);
+}
+.radius-xs {
+  border-radius: var(--quax-radius-xs);
+}
+.radius-sm {
+  border-radius: var(--quax-radius-sm);
+}
+.radius-md {
+  border-radius: var(--quax-radius-md);
+}
+.radius-lg {
+  border-radius: var(--quax-radius-lg);
+}
+.radius-xl {
+  border-radius: var(--quax-radius-xl);
+}
+
+/* size */
+.size-xs {
+  font-size: var(--quax-font-size-xs);
+  padding: var(--quax-padding-xs);
+}
+.size-sm {
+  font-size: var(--quax-font-size-sm);
+  padding: var(--quax-padding-xs);
+}
+.size-md {
+  font-size: var(--quax-font-size-md);
+  padding: var(--quax-padding-sm);
+}
+.size-lg {
+  font-size: var(--quax-font-size-lg);
+  padding: var(--quax-padding-sm);
+}
+.size-xl {
+  font-size: var(--quax-font-size-xl);
+  padding: var(--quax-padding-md);
+}
+
+input {
+  outline: none;
+  border: 1px solid var(--quax-color-gray-400);
+  transition: border-color 0.1s;
+
+  &:focus {
+    outline: none;
+    border: 1px solid var(--quax-color-primary-500);
+  }
+}
+
+input::placeholder {
+  color: var(--quax-color-gray-300);
+}

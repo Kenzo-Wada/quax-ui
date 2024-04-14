@@ -7,8 +7,8 @@ html {
   --quax-radius-xs: 0.1em;
   --quax-radius-sm: 0.2em;
   --quax-radius-md: 0.4em;
-  --quax-radius-lg: 0.6em;
-  --quax-radius-xl: 0.8rem;
+  --quax-radius-lg: 0.8em;
+  --quax-radius-xl: 1.2rem;
 
   /* font-size */
   --quax-font-size-xs: 1.2em;

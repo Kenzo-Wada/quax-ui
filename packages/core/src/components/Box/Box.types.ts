@@ -1,6 +1,5 @@
 import { PropsOf } from "@builder.io/qwik";
-import { QuaxColorType } from "~/types/utils/color.type";
-import { QuaxSizeType } from "~/types/utils/size.type";
+import type { QuaxColorType, QuaxSizeType } from "~/types";
 
 export type QuaxBoxProps = PropsOf<"div"> & {
   bg?: QuaxColorType | "white" | "black";

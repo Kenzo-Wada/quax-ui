@@ -1,5 +1,5 @@
-import { QuaxColorType } from "./color.type";
-import { QuaxSizeType } from "./size.type";
+import { QuaxColorType } from "./color.types";
+import { QuaxSizeType } from "./size.types";
 
 export type QuaxThemeOptionsType = {
   primary?: {

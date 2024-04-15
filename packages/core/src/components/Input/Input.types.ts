@@ -1,9 +1,9 @@
 import { PropsOf } from "@builder.io/qwik";
-import { QuaxSizeType } from "~/types/utils/size.type";
+import type { QuaxSizeType, QuaxRadiusType } from "~/types";
 
 export type QuaxInputProps = {
   size: QuaxSizeType;
-  radius: QuaxSizeType;
+  radius: QuaxRadiusType;
 } & Omit<
   PropsOf<"input">,
   "size" | "bind:checked" | "popovertarget" | "popovertargetaction"

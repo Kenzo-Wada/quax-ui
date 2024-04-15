@@ -1,11 +1,7 @@
 import { Slot, component$, useStyles$ } from "@builder.io/qwik";
-import globalStyles from "../../src/styles/global.css?inline";
-import primaryStyles from "../../src/styles/primary.css?inline";
-import { QuaxThemeOptionsType } from "../../src/types/utils/theme-options.type";
-
-export type QuaxProviderProps = {
-  theme?: QuaxThemeOptionsType;
-};
+import globalStyles from "~/styles/global.css?inline";
+import primaryStyles from "~/styles/primary.css?inline";
+import { QuaxProviderProps } from "./Provider.types";
 
 export const QuaxProvider = component$<QuaxProviderProps>(({ theme }) => {
   useStyles$(globalStyles);

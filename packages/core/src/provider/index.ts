@@ -1,1 +1,2 @@
-export { QuaxProvider, type QuaxProviderProps } from "./Provider";
+export { QuaxProvider } from "./Provider";
+export type { QuaxProviderProps } from "./Provider.types";

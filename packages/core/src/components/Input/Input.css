@@ -21,23 +21,23 @@
 /* size */
 .size-xs {
   font-size: var(--quax-font-size-xs);
-  padding: var(--quax-padding-xs);
+  padding: 0.5rem 0.75rem;
 }
 .size-sm {
   font-size: var(--quax-font-size-sm);
-  padding: var(--quax-padding-xs);
+  padding: 0.75rem 1rem;
 }
 .size-md {
   font-size: var(--quax-font-size-md);
-  padding: var(--quax-padding-sm);
+  padding: 1rem 1.5rem;
 }
 .size-lg {
   font-size: var(--quax-font-size-lg);
-  padding: var(--quax-padding-sm);
+  padding: 1.25rem 1.75rem;
 }
 .size-xl {
   font-size: var(--quax-font-size-xl);
-  padding: var(--quax-padding-md);
+  padding: 1.5rem 2rem;
 }
 
 input {

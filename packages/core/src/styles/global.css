@@ -17,20 +17,6 @@ html {
   --quax-font-size-lg: 1.8em;
   --quax-font-size-xl: 2em;
 
-  /* padding */
-  --quax-padding-xs: 0.4em;
-  --quax-padding-sm: 0.6em;
-  --quax-padding-md: 0.8em;
-  --quax-padding-lg: 1em;
-  --quax-padding-xl: 1.2em;
-
-  /* margin */
-  --quax-margin-xs: 0.4em;
-  --quax-margin-sm: 0.6em;
-  --quax-margin-md: 0.8em;
-  --quax-margin-lg: 1em;
-  --quax-margin-xl: 1.2em;
-
   /* spacing */
   --quax-spacing-xs: 0.25em;
   --quax-spacing-sm: 0.5em;

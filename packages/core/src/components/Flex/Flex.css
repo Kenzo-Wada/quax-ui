@@ -31,6 +31,12 @@
 .direction-row {
   flex-direction: row;
 }
+.direction-column-reverse {
+  flex-direction: column-reverse;
+}
+.direction-row-reverse {
+  flex-direction: row-reverse;
+}
 
 /* Flex wrap */
 .wrap-wrap {

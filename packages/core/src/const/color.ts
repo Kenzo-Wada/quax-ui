@@ -1,5 +1,4 @@
 export const QuaxColor = {
-  primary: "primary",
   blue: "blue",
   green: "green",
   red: "red",

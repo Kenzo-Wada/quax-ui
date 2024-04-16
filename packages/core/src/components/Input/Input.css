@@ -1,7 +1,4 @@
 /* radius */
-.radius-primary {
-  border-radius: var(--quax-radius-primary);
-}
 .radius-xs {
   border-radius: var(--quax-radius-xs);
 }
@@ -47,7 +44,7 @@ input {
 
   &:focus {
     outline: none;
-    border: 1px solid var(--quax-color-primary-500);
+    border: 1px solid var(--quax-color-blue-500);
   }
 }
 

@@ -1,17 +1,28 @@
-import { Slot, component$, useStyles$ } from "@builder.io/qwik";
+import {
+  Slot,
+  component$,
+  useContextProvider,
+  useSignal,
+  useStyles$,
+} from "@builder.io/qwik";
 import globalStyles from "~/styles/global.css?inline";
-import primaryStyles from "~/styles/primary.css?inline";
 import { QuaxProviderProps } from "./Provider.types";
+import { QuaxThemeOptionsType } from "~/types";
+import { QuaxThemeContext } from "~/context";
 
 export const QuaxProvider = component$<QuaxProviderProps>(({ theme }) => {
   useStyles$(globalStyles);
-  useStyles$(primaryStyles);
+  const themeSig = useSignal<QuaxThemeOptionsType>({
+    primary: {
+      color: theme?.primary?.color ?? "blue",
+      radius: theme?.primary?.radius ?? "md",
+    },
+  });
 
-  const primaryColorClass = `primary-color-${theme?.primary?.color ?? "blue"}`;
-  const primaryRadiusClass = `primary-radius-${theme?.primary?.radius ?? "md"}`;
+  useContextProvider(QuaxThemeContext, themeSig);
 
   return (
-    <div class={[primaryColorClass, primaryRadiusClass]}>
+    <div>
       <Slot />
     </div>
   );

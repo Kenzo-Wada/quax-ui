@@ -1,0 +1,1 @@
+export { QuaxThemeContext } from "./QuaxThemeContext";

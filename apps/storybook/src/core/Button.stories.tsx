@@ -48,14 +48,10 @@ export default meta;
 
 export const Primary: Story = {
   args: {
-    size: "md",
-    variant: "filled",
-    radius: "md",
     children: "Button",
-    color: "blue",
   },
   render: (props) => (
-    <QuaxProvider>
+    <QuaxProvider theme={{ primary: { color: "red" } }}>
       <Button {...props} />
     </QuaxProvider>
   ),

@@ -1,12 +1,4 @@
 /* color */
-.color-primary {
-  --quax-button-color-50: var(--quax-color-primary-50);
-  --quax-button-color-100: var(--quax-color-primary-100);
-  --quax-button-color-500: var(--quax-color-primary-500);
-  --quax-button-color-700: var(--quax-color-primary-700);
-  --quax-button-color-900: var(--quax-color-primary-900);
-}
-
 .color-blue {
   --quax-button-color-50: var(--quax-color-blue-50);
   --quax-button-color-100: var(--quax-color-blue-100);
@@ -160,9 +152,6 @@
 }
 
 /* radius */
-.radius-primary {
-  border-radius: var(--quax-radius-primary);
-}
 .radius-xs {
   border-radius: var(--quax-radius-xs);
 }

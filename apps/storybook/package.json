@@ -20,7 +20,7 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik": "1.5.1",
+    "@builder.io/qwik": "1.5.2",
     "@quax-ui/core": "workspace:*",
     "@storybook/addon-essentials": "^8.0.8",
     "@storybook/addon-links": "^8.0.8",
@@ -34,7 +34,6 @@
     "@typescript-eslint/parser": "^7.1.0",
     "eslint": "^8.57.0",
     "eslint-plugin-qwik": "latest",
-    "np": "^8.0.4",
     "prettier": "^3.2.5",
     "storybook": "^8.0.8",
     "storybook-framework-qwik": "^0.4.0",
@@ -42,8 +41,5 @@
     "undici": "*",
     "vite": "^5.1.4",
     "vite-tsconfig-paths": "^4.3.2"
-  },
-  "dependencies": {
-    "@vanilla-extract/css": "^1.14.2"
   }
 }

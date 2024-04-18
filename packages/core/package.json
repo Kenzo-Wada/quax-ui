@@ -37,7 +37,7 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik": "1.5.1",
+    "@builder.io/qwik": "1.5.2",
     "@types/eslint": "^8.56.5",
     "@types/node": "^20.11.24",
     "@typescript-eslint/eslint-plugin": "^7.1.0",

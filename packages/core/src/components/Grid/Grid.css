@@ -4,51 +4,51 @@
 
 /* gap */
 .gap-xs {
-  gap: var(--quax-spacing-xs);
+  grid-gap: var(--quax-spacing-xs);
 }
 .gap-sm {
-  gap: var(--quax-spacing-sm);
+  grid-gap: var(--quax-spacing-sm);
 }
 .gap-md {
-  gap: var(--quax-spacing-md);
+  grid-gap: var(--quax-spacing-md);
 }
 .gap-lg {
-  gap: var(--quax-spacing-lg);
+  grid-gap: var(--quax-spacing-lg);
 }
 .gap-xl {
-  gap: var(--quax-spacing-xl);
+  grid-gap: var(--quax-spacing-xl);
 }
 
 /* Column gap */
 .column-gap-xs {
-  column-gap: var(--quax-spacing-xs);
+  grid-column-gap: var(--quax-spacing-xs);
 }
 .column-gap-sm {
-  column-gap: var(--quax-spacing-sm);
+  grid-column-gap: var(--quax-spacing-sm);
 }
 .column-gap-md {
-  column-gap: var(--quax-spacing-md);
+  grid-column-gap: var(--quax-spacing-md);
 }
 .column-gap-lg {
-  column-gap: var(--quax-spacing-lg);
+  grid-column-gap: var(--quax-spacing-lg);
 }
 .column-gap-xl {
-  column-gap: var(--quax-spacing-xl);
+  grid-column-gap: var(--quax-spacing-xl);
 }
 
 /* Row gap */
 .row-gap-xs {
-  row-gap: var(--quax-spacing-xs);
+  grid-row-gap: var(--quax-spacing-xs);
 }
 .row-gap-sm {
-  row-gap: var(--quax-spacing-sm);
+  grid-row-gap: var(--quax-spacing-sm);
 }
 .row-gap-md {
-  row-gap: var(--quax-spacing-md);
+  grid-row-gap: var(--quax-spacing-md);
 }
 .row-gap-lg {
-  row-gap: var(--quax-spacing-lg);
+  grid-row-gap: var(--quax-spacing-lg);
 }
 .row-gap-xl {
-  row-gap: var(--quax-spacing-xl);
+  grid-row-gap: var(--quax-spacing-xl);
 }

@@ -20,8 +20,10 @@ export const Grid = component$<QuaxGridProps>(
     useStyles$(styles);
 
     const gapClass = `gap-${gap ?? "md"}`;
-    const colGapClass = `column-gap-${colGap ?? "md"}`;
-    const rowGapClass = `row-gap-${rowGap ?? "md"}`;
+    const colGapClass =
+      gap === undefined ? `column-gap-${colGap ?? "md"}` : undefined;
+    const rowGapClass =
+      gap === undefined ? `row-gap-${rowGap ?? "md"}` : undefined;
 
     const customStyles = {
       gridTemplateColumns: templateColumns,
@@ -41,7 +43,7 @@ export const Grid = component$<QuaxGridProps>(
     return (
       <Box
         style={combinedStyles}
-        class={[props.class, gapClass, colGapClass, rowGapClass]}
+        class={["grid", props.class, gapClass, colGapClass, rowGapClass]}
         {...props}
       >
         <Slot />

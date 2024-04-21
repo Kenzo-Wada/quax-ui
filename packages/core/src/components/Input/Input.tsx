@@ -3,7 +3,7 @@ import styles from "./Input.css?inline";
 import type { QuaxInputProps } from "./Input.types";
 
 export const Input = component$<QuaxInputProps>(
-  ({ size = "md", radius, ...props }) => {
+  ({ size = "md", radius = "md", ...props }) => {
     useStylesScoped$(styles);
 
     const sizeClass = `size-${size}`;

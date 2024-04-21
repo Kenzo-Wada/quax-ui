@@ -9,3 +9,4 @@ export {
   type QuaxGridItemProps,
 } from "./Grid";
 export { Input, type QuaxInputProps } from "./Input";
+export { Select, type QuaxSelectProps } from "./Select";

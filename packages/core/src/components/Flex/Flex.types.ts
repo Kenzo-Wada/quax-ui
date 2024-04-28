@@ -12,7 +12,7 @@ export type QuaxFlexProps = QuaxBoxProps & {
   colGap?: QuaxSpacingType;
   rowGap?: QuaxSpacingType;
   direction?: QuaxFlexDirectionType;
-  align: QuaxAlignItemsType;
-  justify: QuaxJustifyContentType;
-  wrap: QuaxFlexWrapType;
+  align?: QuaxAlignItemsType;
+  justify?: QuaxJustifyContentType;
+  wrap?: QuaxFlexWrapType;
 };

@@ -1,6 +1,7 @@
 export { Box, type QuaxBoxProps } from "./Box";
 export { Button, type QuaxButtonProps } from "./Button";
 export { Center, type QuaxCenterProps } from "./Center";
+export { Checkbox, type QuaxCheckboxProps } from "./Checkbox";
 export { Flex, type QuaxFlexProps } from "./Flex";
 export {
   Grid,

@@ -15,19 +15,19 @@
 }
 
 .radius-xs {
-  --quax-checkbox-radius: calc(var(--quax-radius-xs) * 0.5);
+  --quax-checkbox-radius: var(--quax-radius-xs);
 }
 .radius-sm {
-  --quax-checkbox-radius: calc(var(--quax-radius-sm) * 0.5);
+  --quax-checkbox-radius: var(--quax-radius-sm);
 }
 .radius-md {
-  --quax-checkbox-radius: calc(var(--quax-radius-md) * 0.5);
+  --quax-checkbox-radius: var(--quax-radius-md);
 }
 .radius-lg {
-  --quax-checkbox-radius: calc(var(--quax-radius-lg) * 0.5);
+  --quax-checkbox-radius: var(--quax-radius-lg);
 }
 .radius-xl {
-  --quax-checkbox-radius: calc(var(--quax-radius-xl) * 0.5);
+  --quax-checkbox-radius: var(--quax-radius-xl);
 }
 
 span {

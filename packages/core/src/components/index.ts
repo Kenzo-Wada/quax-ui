@@ -11,3 +11,4 @@ export {
 } from "./Grid";
 export { Input, type QuaxInputProps } from "./Input";
 export { Select, type QuaxSelectProps } from "./Select";
+export { Switch, type QuaxSwitchProps } from "./Switch";

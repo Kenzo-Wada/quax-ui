@@ -168,6 +168,48 @@ importers:
         specifier: ^4.3.2
         version: 4.3.2(typescript@5.3.3)(vite@5.2.8(@types/node@20.12.7))
 
+  packages/hooks:
+    devDependencies:
+      '@builder.io/qwik':
+        specifier: 1.5.2
+        version: 1.5.2(@types/node@20.12.7)(undici@6.12.0)
+      '@types/eslint':
+        specifier: ^8.56.6
+        version: 8.56.7
+      '@types/node':
+        specifier: ^20.11.30
+        version: 20.12.7
+      '@typescript-eslint/eslint-plugin':
+        specifier: ^7.3.1
+        version: 7.6.0(@typescript-eslint/parser@7.6.0(eslint@8.57.0)(typescript@5.3.3))(eslint@8.57.0)(typescript@5.3.3)
+      '@typescript-eslint/parser':
+        specifier: ^7.3.1
+        version: 7.6.0(eslint@8.57.0)(typescript@5.3.3)
+      eslint:
+        specifier: ^8.57.0
+        version: 8.57.0
+      eslint-plugin-qwik:
+        specifier: latest
+        version: 1.5.2(eslint@8.57.0)
+      np:
+        specifier: ^8.0.4
+        version: 8.0.4(typescript@5.3.3)
+      prettier:
+        specifier: ^3.2.5
+        version: 3.2.5
+      typescript:
+        specifier: 5.3.3
+        version: 5.3.3
+      undici:
+        specifier: '*'
+        version: 6.12.0
+      vite:
+        specifier: ^5.1.6
+        version: 5.2.8(@types/node@20.12.7)
+      vite-tsconfig-paths:
+        specifier: ^4.2.1
+        version: 4.3.2(typescript@5.3.3)(vite@5.2.8(@types/node@20.12.7))
+
 packages:
 
   '@aashutoshrathi/word-wrap@1.2.6':

@@ -1,7 +1,7 @@
 {
-  "name": "my-qwik-library-name",
+  "name": "@quax-ui/hooks",
   "version": "0.0.1",
-  "description": "Create a reusable Qwik component library",
+  "description": "A Hooks Library used in Quax UI",
   "main": "./lib/index.qwik.mjs",
   "qwik": "./lib/index.qwik.mjs",
   "types": "./lib-types/index.d.ts",
@@ -32,7 +32,7 @@
     "lint": "eslint \"src/**/*.ts*\"",
     "release": "np",
     "start": "vite --open --mode ssr",
-    "test": "echo \"No test specified\" && exit 0",
+    "test": "vitest",
     "qwik": "qwik"
   },
   "devDependencies": {
@@ -48,6 +48,7 @@
     "typescript": "5.3.3",
     "undici": "*",
     "vite": "^5.1.6",
-    "vite-tsconfig-paths": "^4.2.1"
+    "vite-tsconfig-paths": "^4.2.1",
+    "vitest": "^1.5.3"
   }
 }

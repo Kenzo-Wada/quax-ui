@@ -1,7 +1,6 @@
 import type { Meta, StoryObj } from "storybook-framework-qwik";
 import { Button } from "@quax-ui/core";
 import { QuaxButtonProps } from "@quax-ui/core";
-import { QuaxProvider } from "@quax-ui/core";
 
 const meta: Meta<QuaxButtonProps> = {
   component: Button,
@@ -50,9 +49,5 @@ export const Primary: Story = {
   args: {
     children: "Button",
   },
-  render: (props) => (
-    <QuaxProvider theme={{ primary: { color: "red" } }}>
-      <Button {...props} />
-    </QuaxProvider>
-  ),
+  render: (props) => <Button {...props} />,
 };

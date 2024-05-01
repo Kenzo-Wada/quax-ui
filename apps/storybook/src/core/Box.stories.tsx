@@ -1,7 +1,6 @@
 import type { Meta, StoryObj } from "storybook-framework-qwik";
 import { Box } from "@quax-ui/core";
 import { QuaxBoxProps } from "@quax-ui/core";
-import { QuaxProvider } from "@quax-ui/core";
 
 const meta: Meta<QuaxBoxProps> = {
   component: Box,
@@ -61,10 +60,8 @@ export const Primary: Story = {
     h: "980px",
   },
   render: (props) => (
-    <QuaxProvider>
-      <Box {...props}>
-        <h1>Box Content</h1>
-      </Box>
-    </QuaxProvider>
+    <Box {...props}>
+      <h1>Box Content</h1>
+    </Box>
   ),
 };

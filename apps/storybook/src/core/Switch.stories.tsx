@@ -1,7 +1,6 @@
 import type { Meta, StoryObj } from "storybook-framework-qwik";
 import { Switch } from "@quax-ui/core";
 import { QuaxSwitchProps } from "@quax-ui/core";
-import { QuaxProvider } from "@quax-ui/core";
 
 const meta: Meta<QuaxSwitchProps> = {
   component: Switch,
@@ -26,9 +25,5 @@ type Story = StoryObj<QuaxSwitchProps>;
 export default meta;
 
 export const Primary: Story = {
-  render: (props) => (
-    <QuaxProvider theme={{ primary: { color: "red" } }}>
-      <Switch {...props} label="Switch" />
-    </QuaxProvider>
-  ),
+  render: (props) => <Switch {...props} label="Switch" />,
 };

@@ -1,7 +1,6 @@
 import type { Meta, StoryObj } from "storybook-framework-qwik";
 import { Center } from "@quax-ui/core";
 import { QuaxCenterProps } from "@quax-ui/core";
-import { QuaxProvider } from "@quax-ui/core";
 
 const meta: Meta<QuaxCenterProps> = {
   component: Center,
@@ -61,10 +60,8 @@ export const Primary: Story = {
     h: "980px",
   },
   render: (props) => (
-    <QuaxProvider>
-      <Center {...props}>
-        <h1>Center Content</h1>
-      </Center>
-    </QuaxProvider>
+    <Center {...props}>
+      <h1>Center Content</h1>
+    </Center>
   ),
 };

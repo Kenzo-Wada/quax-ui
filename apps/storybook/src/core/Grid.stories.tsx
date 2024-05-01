@@ -1,7 +1,6 @@
 import type { Meta, StoryObj } from "storybook-framework-qwik";
 import { Grid, GridItem } from "@quax-ui/core";
 import { QuaxGridProps } from "@quax-ui/core";
-import { QuaxProvider } from "@quax-ui/core";
 
 const meta: Meta<QuaxGridProps> = {
   component: Grid,
@@ -32,13 +31,11 @@ export const Primary: Story = {
     h: "360px",
   },
   render: (props) => (
-    <QuaxProvider>
-      <Grid {...props}>
-        <GridItem colSpan={1} rowSpan={2} bg="blue" />
-        <GridItem colSpan={2} bg="green" />
-        <GridItem colSpan={2} bg="red" />
-        <GridItem colSpan={4} bg="yellow" />
-      </Grid>
-    </QuaxProvider>
+    <Grid {...props}>
+      <GridItem colSpan={1} rowSpan={2} bg="blue" />
+      <GridItem colSpan={2} bg="green" />
+      <GridItem colSpan={2} bg="red" />
+      <GridItem colSpan={4} bg="yellow" />
+    </Grid>
   ),
 };

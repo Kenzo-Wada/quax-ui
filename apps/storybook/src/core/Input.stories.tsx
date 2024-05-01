@@ -1,7 +1,6 @@
 import type { Meta, StoryObj } from "storybook-framework-qwik";
 import { Input } from "@quax-ui/core";
 import { QuaxInputProps } from "@quax-ui/core";
-import { QuaxProvider } from "@quax-ui/core";
 
 const meta: Meta<QuaxInputProps> = {
   component: Input,
@@ -31,9 +30,5 @@ export const Primary: Story = {
     radius: "md",
     placeholder: "placeholder",
   },
-  render: (props) => (
-    <QuaxProvider>
-      <Input {...props} />
-    </QuaxProvider>
-  ),
+  render: (props) => <Input {...props} />,
 };

@@ -1,7 +1,6 @@
 import type { Meta, StoryObj } from "storybook-framework-qwik";
 import { Center, Flex } from "@quax-ui/core";
 import { QuaxFlexProps } from "@quax-ui/core";
-import { QuaxProvider } from "@quax-ui/core";
 
 const meta: Meta<QuaxFlexProps> = {
   component: Flex,
@@ -80,18 +79,16 @@ export const Primary: Story = {
     h: "360px",
   },
   render: (props) => (
-    <QuaxProvider>
-      <Flex {...props}>
-        <Center bg={"red"} color={"white"} w={"120px"}>
-          <h1>Box1</h1>
-        </Center>
-        <Center bg={"green"} color={"white"} w={"360px"}>
-          <h1>Box2</h1>
-        </Center>
-        <Center bg={"blue"} color={"white"} w={"240px"}>
-          <h1>Box3</h1>
-        </Center>
-      </Flex>
-    </QuaxProvider>
+    <Flex {...props}>
+      <Center bg={"red"} color={"white"} w={"120px"}>
+        <h1>Box1</h1>
+      </Center>
+      <Center bg={"green"} color={"white"} w={"360px"}>
+        <h1>Box2</h1>
+      </Center>
+      <Center bg={"blue"} color={"white"} w={"240px"}>
+        <h1>Box3</h1>
+      </Center>
+    </Flex>
   ),
 };

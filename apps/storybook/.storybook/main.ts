@@ -1,7 +1,12 @@
 import { StorybookConfig } from "storybook-framework-qwik";
 
 const config: StorybookConfig = {
-  addons: ["@storybook/addon-links", "@storybook/addon-essentials"],
+  addons: [
+    "@storybook/addon-links",
+    "@storybook/addon-essentials",
+    "@storybook/addon-a11y",
+    "@storybook/addon-storysource",
+  ],
   framework: {
     name: "storybook-framework-qwik",
   },

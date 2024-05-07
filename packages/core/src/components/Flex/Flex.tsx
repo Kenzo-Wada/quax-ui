@@ -2,9 +2,11 @@ import { Slot, component$, useStyles$ } from "@builder.io/qwik";
 import styles from "./Flex.css?inline";
 import { QuaxFlexProps } from "./Flex.types";
 import { Box } from "../Box";
+import { useComponentId } from "~/hooks/utils/useComponentId/useComponentId";
 
 export const Flex = component$<QuaxFlexProps>((props) => {
   useStyles$(styles);
+  const id = useComponentId("Flex");
 
   const gapClass = props.gap ? `gap-${props.gap}` : undefined;
   const colGapClass = props.colGap ? `column-gap-${props.colGap}` : undefined;
@@ -16,6 +18,7 @@ export const Flex = component$<QuaxFlexProps>((props) => {
 
   return (
     <Box
+      id={id}
       {...props}
       class={[
         props.class,

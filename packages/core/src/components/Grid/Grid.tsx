@@ -2,6 +2,7 @@ import { component$, CSSProperties, Slot, useStyles$ } from "@builder.io/qwik";
 import { Box } from "~/components";
 import styles from "./Grid.css?inline";
 import type { QuaxGridProps } from "./Grid.types";
+import { useComponentId } from "~/hooks/utils/useComponentId/useComponentId";
 
 export const Grid = component$<QuaxGridProps>(
   ({
@@ -18,6 +19,7 @@ export const Grid = component$<QuaxGridProps>(
     ...props
   }) => {
     useStyles$(styles);
+    const id = useComponentId("Grid");
 
     const gapClass = `gap-${gap ?? "md"}`;
     const colGapClass =
@@ -42,6 +44,7 @@ export const Grid = component$<QuaxGridProps>(
 
     return (
       <Box
+        id={id}
         style={combinedStyles}
         class={["grid", props.class, gapClass, colGapClass, rowGapClass]}
         {...props}

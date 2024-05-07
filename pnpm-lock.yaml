@@ -124,6 +124,9 @@ importers:
 
   packages/core:
     dependencies:
+      '@quax-ui/hooks':
+        specifier: workspace:*
+        version: link:../hooks
       '@qwikest/icons':
         specifier: ^0.0.13
         version: 0.0.13(@builder.io/qwik@1.5.2(@types/node@20.12.7)(undici@6.12.0))

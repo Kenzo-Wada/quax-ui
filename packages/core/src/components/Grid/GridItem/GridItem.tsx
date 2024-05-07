@@ -1,6 +1,7 @@
 import { CSSProperties, Slot, component$ } from "@builder.io/qwik";
 import { QuaxGridItemProps } from "./GridItem.types";
 import { Box } from "~/components";
+import { useComponentId } from "~/hooks/utils/useComponentId/useComponentId";
 
 export const GridItem = component$<QuaxGridItemProps>(
   ({
@@ -13,6 +14,7 @@ export const GridItem = component$<QuaxGridItemProps>(
     rowStart,
     ...props
   }) => {
+    const id = useComponentId("GridItem");
     const customStyles = {
       gridArea: area,
       gridColumnEnd: colSpan ? `span ${colSpan}` : colEnd,
@@ -26,7 +28,7 @@ export const GridItem = component$<QuaxGridItemProps>(
     };
 
     return (
-      <Box style={combinedStyles} {...props}>
+      <Box id={id} style={combinedStyles} {...props}>
         <Slot />
       </Box>
     );

@@ -6,6 +6,7 @@ import {
 } from "@builder.io/qwik";
 import styles from "./Box.css?inline";
 import type { QuaxBoxProps } from "./Box.types";
+import { useComponentId } from "~/hooks/utils/useComponentId/useComponentId";
 
 export const Box = component$<QuaxBoxProps>(
   ({
@@ -34,6 +35,7 @@ export const Box = component$<QuaxBoxProps>(
     ...props
   }) => {
     useStylesScoped$(styles);
+    const id = useComponentId("Box");
 
     const marginClass = m && `margin-${m}`;
     const paddingClass = p && `padding-${p}`;
@@ -64,6 +66,7 @@ export const Box = component$<QuaxBoxProps>(
 
     return (
       <div
+        id={id}
         {...props}
         style={combinedStyle}
         class={[

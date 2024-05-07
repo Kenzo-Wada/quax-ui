@@ -6,6 +6,7 @@ describe("useRandomId", () => {
     const randomMock = vi.spyOn(Math, "random").mockReturnValue(0.1);
 
     const expectedId = "gggggggggggg";
+    /* eslint qwik/use-method-usage: 0 */
     const actualId = useRandomId();
 
     expect(actualId).toBe(expectedId);
